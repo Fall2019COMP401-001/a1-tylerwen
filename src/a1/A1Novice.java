@@ -24,12 +24,10 @@ public class A1Novice {
 			double dynprice = amount * price;
 			total = total + dynprice;
 		}
-		scan.close();
 		System.out.println(firstname.charAt(0) + ". " + lastname + ": " + total);
 					
 		}
 		}
-		
 						
 	}
 ;
