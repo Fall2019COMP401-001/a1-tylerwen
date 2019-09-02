@@ -18,12 +18,13 @@ public class A1Novice {
 			int items = scan.nextInt();
 			total = 0;
 		for (int j = 1; j<=items; j++) { 
-			int amount = scan.nextInt();
+			double amount = scan.nextInt();
 			scan.next();
 			double price = scan.nextDouble();
 			double dynprice = amount * price;
 			total = total + dynprice;
 		}
+		scan.close();
 		System.out.println(firstname.charAt(0) + ". " + lastname + ": " + total);
 					
 		}
