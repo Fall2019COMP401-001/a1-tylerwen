@@ -24,7 +24,7 @@ public class A1Novice {
 			double dynprice = amount * price;
 			total = total + dynprice;
 		}
-		System.out.println(firstname.charAt(0) + ". " + lastname + ": " + total);
+		System.out.println(firstname.charAt(0) + ". " + lastname + ": " +  String.format("%.2f", total));
 					
 		}
 		}
