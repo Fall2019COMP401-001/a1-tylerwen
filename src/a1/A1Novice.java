@@ -16,20 +16,20 @@ public class A1Novice {
 			String firstname = scan.next();
 			String lastname = scan.next();
 			int items = scan.nextInt();
-			
-		for (int j = 1; j<=items; j++) {
+			total = 0;
+		for (int j = 1; j<=items; j++) { 
 			int amount = scan.nextInt();
-			String name = scan.next();
+			scan.next();
 			double price = scan.nextDouble();
 			double dynprice = amount * price;
 			total = total + dynprice;
 		}
-		System.out.println(firstname.charAt(0) + ". " + lastname + " :" + total);
+		System.out.println(firstname.charAt(0) + ". " + lastname + " : " + total);
 					
 		}
 		}
 		
 						
 	}
-}
+;
 	
